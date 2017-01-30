@@ -1,6 +1,8 @@
 # excel-bulk-sms-notification
 Send Bulk SMS/Notifications to users registered in DB
 
+PHP + Javascript + HTML + Bootstrap
+
 Features:
 
 1. Upload Excel Sheet (.xls or .xlsx)
