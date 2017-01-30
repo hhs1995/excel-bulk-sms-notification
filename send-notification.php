@@ -95,6 +95,7 @@
         <div class="tab-pane fade in active">
           <!-- Add Excel form -->
           <!-- form start -->
+          <h3>Step 1:</h3>
           <form role="form" action="<?php echo $_SERVER['PHP_SELF']?>" method="POST" enctype="multipart/form-data" id="add-excel-form" name="add-excel-form">
             <div class="box-body">
               <div class="form-group col-md-5">
@@ -118,6 +119,7 @@
         </div>
         <div class="tab-pane fade in active">
           <!-- Send Notification form start -->
+          <h3>Step 2:</h3>
           <form role="form" action="javascript:void(0)" method="post" enctype="multipart/form-data" id="send-notification-form">
             <div class="box-body">
               <div class="form-group col-md-5">
