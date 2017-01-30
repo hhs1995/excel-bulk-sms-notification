@@ -18,6 +18,7 @@ Configuration
 	define("WWWROOT",'http://'. $HTTP_HOST . '/bulk-sms/');
 	```
 	a. Replace 'bulk-sms' with your folder name in htdocs
+	
 	b. Remove 'bulk-sms' if hosting on live server
 
 2. Change DB Settings in assets/config.php
