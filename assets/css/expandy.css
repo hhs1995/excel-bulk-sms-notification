@@ -1,0 +1,67 @@
+/* plugin styles */
+.expandy{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.container2 { margin-top:25px;}
+.container2 h2{
+	margin-bottom: -5px; 
+    color: #212121;
+    font-weight: bold;
+	margin-top:18px;
+    font-family: "Open Sans";
+    padding-bottom: 18px;
+	font-size:15px;
+    position: relative;
+    text-decoration: none;
+ }
+.expandy.expandy-hidden{
+    display: none;
+}
+.expandy-toggle{
+    cursor: pointer;   
+}
+.toggle-all{
+	border:2px solid #1064B5;
+	background-color:#1064B5;	
+	margin-top: -6%;
+	color:#fff;
+	padding:5px;
+	width:90px;
+	text-align:center;
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.expandy p{
+	font-size:16px;
+	font-family: "Open Sans";
+	padding-left:5%;
+}
+
+/* show/hide indicators */
+.expandy-toggle.plusminus:before{
+    content: '-';
+	 font-family: "Open Sans";
+	border-radius:50%;
+	border: 2px solid hsl(210, 53%, 55%);
+    color: hsl(210, 53%, 55%);
+    font-size: 15px;
+    margin-right: 2%;
+	padding-left:8px;
+	padding-right:5px;
+    top: 9px;
+}
+.expandy-toggle.expandy-hidden.plusminus:before{
+    content: '+';
+	border-radius:50%;
+	 font-family: "Open Sans";
+	border: 2px solid hsl(210, 53%, 55%);
+    color: hsl(210, 53%, 55%);
+    font-size: 15px;
+	  padding-left: 7px;
+    margin-right: 2%;
+	top: 9px;
+}
