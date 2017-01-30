@@ -142,7 +142,7 @@
               </div>
               <div class="clearfix"></div>
               <div class="form-group col-md-5">
-                <label for="store-name">Select Message Fields</label>
+                <label for="store-name">Select Message Fields (Double click to select fields)</label>
                 <select id="message-fields" name="message-fields" ondblclick="addToMessage()" class="form-control" multiple>
                   <option value="" style="display:none">Select</option>
                   <?php 
