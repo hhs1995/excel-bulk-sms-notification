@@ -7,9 +7,10 @@ Features:
 2. Create Custom Messages Using the values from excel sheet
 3. Send bulk sms or GCM notification to users registered in DB
 
-Configuration:
-1. Change root folder name in assets/config.php
-	
+Configuration
+----------------
+
+1. Change root folder name in assets/config.php	
 	define("ROOT_DIR",$DOCUMENT_ROOT."/bulk-sms/assets/");
 	define("WWWROOT",'http://'. $HTTP_HOST . '/bulk-sms/');
 
@@ -31,7 +32,9 @@ Configuration:
 	define("API_ACCESS_KEY", "GCM/FIREBASE API KEY");
 
 
-Use:
+Use
+----------------
+
 1. Upload excel sheet in step - 1 form. After scussfull upload columns from first row of excel sheet will be displayed in step-2 form
 
 2. Sending SMS?Notification
