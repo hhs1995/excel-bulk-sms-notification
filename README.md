@@ -11,26 +11,35 @@ Configuration
 ----------------
 
 1. Change root folder name in assets/config.php	
-	define("ROOT_DIR",$DOCUMENT_ROOT."/bulk-sms/assets/");
-	define("WWWROOT",'http://'. $HTTP_HOST . '/bulk-sms/');
 
+	```
+	define("ROOT_DIR",$DOCUMENT_ROOT."/bulk-sms/assets/");
+
+	define("WWWROOT",'http://'. $HTTP_HOST . '/bulk-sms/');
+	```
 	a. Replace 'bulk-sms' with your folder name in htdocs
 	b. Remove 'bulk-sms' if hosting on live server
 
 2. Change DB Settings in assets/config.php
 	
+	```
 	define("DB_HOST", "localhost");
+	
 	define("DB_USER", "root");
+	
 	define("DB_PSSWD", "");
+	
 	define("DB_NAME", "test");
+	```
 
 3. Create `users` Table with gcmId and phoneNumber columns
 	
 4. Add API Keys in assets/config.php
 	
+	```	
 	define("SMS_API", "SMS API KEY");
 	define("API_ACCESS_KEY", "GCM/FIREBASE API KEY");
-
+	```
 
 Use
 ----------------
