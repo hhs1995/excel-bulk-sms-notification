@@ -49,8 +49,12 @@ Use
 
 1. Upload excel sheet in step - 1 form. After successful upload, columns from first row of excel sheet will be displayed in step-2 form
 
-2. Sending SMS?Notification
+2. Sending SMS Notification
+
 	a. Select the field in phone numbers are present in the excel sheet. 
+	
 	b. Enter a subtitle to be displayed
+	
 	c. Double click on the select box to add fields to message box (Message Contents)
+	
 	d. Edit the message to be sent
