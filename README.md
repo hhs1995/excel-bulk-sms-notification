@@ -47,7 +47,7 @@ Configuration
 Use
 ----------------
 
-1. Upload excel sheet in step - 1 form. After scussfull upload columns from first row of excel sheet will be displayed in step-2 form
+1. Upload excel sheet in step - 1 form. After successful upload, columns from first row of excel sheet will be displayed in step-2 form
 
 2. Sending SMS?Notification
 	a. Select the field in phone numbers are present in the excel sheet. 
